@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "bootstrap project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chulo-rulo/guia-hoteles.git"
+  },
+  "author": "Igor Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chulo-rulo/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/chulo-rulo/guia-hoteles#readme"
+}
