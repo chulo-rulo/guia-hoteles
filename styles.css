@@ -1,0 +1,11 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.etiqueta {
+    background-color: #4c4747;
+    margin: 1%;
+}
+.titulo {
+    color: darkorange;
+}
