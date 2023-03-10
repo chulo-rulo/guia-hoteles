@@ -5,23 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Guia de Hoteles</title>
     <link href="node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid text-center" id="papa">
-      <h1>Guia de Hoteles</h1>
-      <div class="row">
-        <div class="col etiqueta">
-          <p><h4 class="titulo">Hotel "Victoria"</h4></p>La mejor opción de la temporada</p>
-        </div>
-        <div class="col etiqueta">
-          <p><h4 class="titulo">Hotel "Nelva"</h4></p>La mejor forma de pasarselo bien</p>
-        </div>
-        <div class="col etiqueta">
-          <p><h4 class="titulo">Hotel "Santa Fe"</h4></p>Los mejores momentod de tu vida</p>
+    <header>
+      <div class="col text-center" id="head">
+        <h1 style="background-color: #2f2929;">Guia de Hoteles</h1>
+      </div>
+    </header>
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-sm-3">
+              <p>
+                <h3>¿Cómo funciona?</h3>
+                <p>Busca los hoteles de acuerdo a tu preferencias.</p>
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <p>
+                <h3>¿Dónde puedo reservar?</h3>
+                <p>Elige la ciudad que te interesa y luego realiza la reserva con tus datos.</p>
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <p>
+                <h3>¿Cómo pago?</h3>
+                <p>Utiliza tus tarjetas favoritas.</p>
+              </p>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Victoria"</h4>
+                <p>La mejor opción de la temporada</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Nelva"</h4>
+                <p>La mejor forma de pasarselo bien</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Santa Fe"</h4>
+                <p>Los mejores momentos de tu vida</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Siete Coronas"</h4>
+                <p>Los mejores amigos se juntan aquí</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Barcelona"</h4>
+                <p>Los mejores de los Pirineos</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Buenos Aires"</h4>
+                <p>Los mejores de la costa</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+            <div class="col etiqueta">
+              <p>
+                <h4 class="titulo">Hotel "Murcia"</h4>
+                <p>Los mejores de la huerta</p><br>
+                <button type="button" class="btn btn-primary reserva">Reservar</button>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="row text-center" style="margin-top: 5%;">
+        <div class="col"></div>
+        <div class="col-sm-1 footer_col">
+          <a href="">Facebook</a><br>
+          <a href="">Twitter</a><br>
+          <a href="">Instagram</a>
+        </div>
+        <div class="col"></div>
+        <div class="col-sm-2 footer_col">
+          <address>
+            Gran Vía 13, 30000, Murcia, España<br>
+            +34 650156765<br>
+            hoteles-murcia@viajes.es
+          </address>
+        </div>
+        <div class="col"></div>
+        <div class="col-sm-1 footer_col">
+          <a href="">Sobre nosotros</a><br>
+            <a href="">Contacto</a><br>
+            <a href="">Precios</a>
+        </div>
+        <div class="col"></div>
+      </div>
+    </footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
     <script src="node_modules\popper.js\dist\popper.min.js"></script>
